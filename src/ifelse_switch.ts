@@ -1,3 +1,4 @@
+import { deflate } from "zlib"
 
 
 let anExampleVariable: string = '12'
@@ -46,6 +47,8 @@ function processHttpStr(s:
         case "500":
             console.log("internal server error")
             break
+        default:
+            console.log("unknow error")
     }
     // if (statusStr === '200'){
     //     console.log('ok')
