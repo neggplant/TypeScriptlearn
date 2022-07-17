@@ -1,3 +1,10 @@
+// 可以直接写名字
+enum HTTPStatus1 {
+    OK,
+    NOT_FOUND,
+    INTERNAL_SERVER_ERROR,
+}
+// 可以指定值
 enum HTTPStatus {
     OK = 200,
     NOT_FOUND = 404,
